@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#065BEA;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#0656DC;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="992" height="860"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect class="st0" width="992" height="860"/>
+	<g class="st1">
+		<path class="st2" d="M441,618.9l465-187.4L788.4,914.3L323,1099.8L441,618.9z"/>
+		<path class="st2" d="M20.3-82.7L695-354.6L524.4,345.9l-675.3,269L20.3-82.7z"/>
+	</g>
+</g>
+</svg>
