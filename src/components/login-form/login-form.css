@@ -1,9 +1,6 @@
 .login-form {
-	/* height: 82%;
-	width: 88%; */
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 }
 
 label {
@@ -90,4 +87,23 @@ label > a:hover {
 
 .login-button-enable:hover {
 	background: #0451d2;
+}
+
+@media (max-width: 767px) {
+	.label-area > span {
+		font-size: calc(10px + (2 + 2 * 0.7) * ((100vw - 360px) / 1440));
+	}
+
+	label > a {
+		bottom: 5px;
+	}
+
+	.login-form input {
+		margin-top: 0;
+		padding: 0.7rem;
+	}
+
+	.login-button {
+		padding: 0.7rem;
+	}
 }

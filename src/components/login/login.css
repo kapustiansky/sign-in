@@ -56,3 +56,53 @@ h1 {
 	height: 66%;
 	width: 95%;
 }
+
+@media (max-width: 1439px) {
+	.login-container {
+		padding: 1.5rem;
+		width: 40vw;
+	}
+
+	.info-links {
+		width: 70%;
+	}
+
+	.login-area {
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	.login-container {
+		width: 100vw;
+		padding: 1rem;
+		height: 45vh;
+	}
+
+	.login-area {
+		height: 78%;
+	}
+
+	.login-heading {
+		margin-bottom: 1.6rem;
+	}
+
+	h1 {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.login-container {
+		height: 70vh;
+	}
+
+	.login-area {
+		width: 100%;
+		height: 73%;
+	}
+
+	h1 {
+		font-size: calc(22px + (6 + 6 * 0.7) * ((100vw - 360px) / 1440));
+	}
+}
