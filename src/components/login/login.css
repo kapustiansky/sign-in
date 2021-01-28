@@ -1,0 +1,58 @@
+.login-container {
+	height: 53.75rem;
+	width: 40rem;
+	padding: 2rem 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: calc(22px + 6 * (100vw / 1440));
+	line-height: 34px;
+	color: #333333;
+	margin-bottom: 0.8rem;
+}
+
+.login-heading {
+	margin-bottom: 3.7rem;
+}
+
+.login-heading > span {
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	color: #333333;
+}
+
+.login-heading a {
+	color: #065bea;
+}
+
+.login-heading a:hover {
+	color: #0a4ab6;
+}
+
+.info-links {
+	display: flex;
+	justify-content: space-between;
+	width: 46%;
+}
+
+.info-links > a {
+	font-style: normal;
+	font-weight: 600;
+	color: #75777a;
+}
+
+.info-links > a:hover {
+	color: #333333;
+}
+
+.login-area {
+	height: 66%;
+	width: 95%;
+}
