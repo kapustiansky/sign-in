@@ -10,7 +10,7 @@ import slideMin4 from '../../assets/slider/slide-min-4.svg';
 import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import './slider.css';
+import './slider.scss';
 import 'swiper/swiper.min.css';
 import 'swiper/components/pagination/pagination.min.css';
 import 'swiper/components/effect-fade/effect-fade.min.css';

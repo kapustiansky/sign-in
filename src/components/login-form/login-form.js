@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import FormErrors from '../form-errors';
-import './login-form.css';
+import './login-form.scss';
 
 class LoginForm extends Component {
 	constructor(props) {

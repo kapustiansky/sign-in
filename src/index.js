@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Slider from './components/slider';
 import Login from './components/login';
-import './index.css';
+import './index.scss';
 
 const App = () => {
 	return (

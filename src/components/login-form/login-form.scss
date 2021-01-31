@@ -1,0 +1,103 @@
+@use '../scss_partials/variables' as v;
+@use '../scss_partials/mixins' as m;
+.login-form {
+	@include m.column;
+}
+
+.login-area {
+	margin-bottom: 7.2rem;
+	width: 100%;
+
+	@media (max-width: 991px) {
+		margin-bottom: 3rem;
+	}
+}
+
+label {
+	@include m.column;
+	position: relative;
+	line-height: 24px;
+	color: v.$gray-text;
+
+	> a {
+		right: 19px;
+		bottom: 41px;
+		position: absolute;
+		display: inline;
+		color: v.$gray-link;
+
+		&:hover {
+			color: v.$gray-text;
+		}
+
+		@media (max-width: 767px) {
+			bottom: 0;
+		}
+	}
+}
+
+.label-area {
+	display: flex;
+	justify-content: space-between;
+
+	> span {
+		@include m.adaptive-font(12, 10);
+		font-weight: 400;
+		line-height: 15px;
+		display: flex;
+		align-items: center;
+		color: #ff4b26;
+	}
+}
+
+.login-form {
+	input {
+		border: 1px solid #e0e5e9;
+		border-radius: 8px;
+		margin: 0.5rem 0 1.7rem 0;
+		padding: 1.1rem;
+		outline: none;
+
+		&:focus {
+			border-color: v.$main-color;
+		}
+	}
+}
+
+.has-error {
+	border-color: #ff4b26 !important;
+}
+
+.complete {
+	border-color: #6fcf97 !important;
+}
+
+.login-button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 20px;
+	font-size: 16px;
+	padding: 1.1rem;
+	border-radius: 8px;
+	color: v.$white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #c6d0e0;
+	pointer-events: none;
+
+	@media (max-width: 767px) {
+		margin-top: 1rem;
+	}
+}
+
+.login-button-enable {
+	background: v.$main-color;
+	box-shadow: 0 13px 40px -15px rgba(6, 91, 234, 0.83);
+	pointer-events: auto;
+
+	&:hover {
+		background: #0451d2;
+	}
+}

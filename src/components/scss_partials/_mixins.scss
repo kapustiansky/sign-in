@@ -1,0 +1,21 @@
+@use './variables' as v;
+@mixin column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin adaptive-font($pcSize, $mobSize) {
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize * 0.7;
+	@media (max-width: 767px) {
+		font-size: calc(
+			#{$mobSize + px} + #{$addMobSize} *
+				((100vw - 320px) / #{v.$maxWidth})
+		);
+	}
+	@media (min-width: 767px) {
+		font-size: calc(
+			#{$mobSize + px} + #{$addSize} * (100vw / #{v.$maxWidth})
+		);
+	}
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import LoginForm from '../login-form/';
 import logo from '../../assets/logo.svg';
-import './login.css';
+import './login.scss';
 
 const Login = () => {
 	return (
@@ -13,7 +13,7 @@ const Login = () => {
 					<h1>Sign in</h1>
 					<span>
 						Don’t have an Xcellerate account?
-						<Link to='#'> Sign up now</Link>
+						<Link to='#'>Sign up now</Link>
 					</span>
 				</div>
 				<LoginForm />
